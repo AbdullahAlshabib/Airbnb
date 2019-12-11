@@ -1,0 +1,335 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: #004445;
+    margin: 0;
+    padding: 0;
+    font-family: 'Solway', serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+nav{
+    background-color: #021c1e;
+    margin-top: 20px;
+}
+.nav-pills .nav-link.active{
+    background-color: #004445;
+    border: solid white;
+}
+.navbar{
+    
+    justify-content: center;
+
+}
+h1 , h3,  a , p {
+    color: white;
+}
+p{
+    margin: 0;
+}
+ul{
+    
+    justify-content: center;
+}
+li{
+    background-color: #2c7873;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+    
+}
+li>:hover{
+    background-color: #004445;
+    color: white;
+    border-radius: 20px;
+}
+
+img{
+    padding:  30px;
+}
+#logo{
+    padding: 0px;
+}
+.img0:hover{
+    box-shadow: 0 0 5px 1px black;
+}
+.col-sm-4{
+    margin-top: 60px;
+}
+
+.jumbotron{
+    background-color: #021c1e;
+    padding-top: 0px;
+    
+}
+.autoplay{
+    width: 22cm;
+  }
+  .list-group-item{
+      background-color: #021c1e;
+  }
+.containerheader{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.containernav{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+}
+ .team-info,.group-A {
+     margin-top: 1150px;
+ }
+ .group-B{
+     margin-top: 1500px;
+ }
+ .group-C{
+     margin-top: 1950px;
+ }
+ .group-D{
+     margin-top: 2250px;
+ }
+ .group-E{
+     margin-top: 2550px;
+ }
+ .group-F{
+     margin-top: 2850px;
+ }
+ .group-G{
+     margin-top: 3150px;
+ }
+ .group-H{
+     margin-top: 3450px;
+ }
+.team-logo{
+    height: 200px;
+    max-width: 200px;
+    min-width: 140px;
+}
+.team-info{
+    display: none;
+    position: absolute;
+    top: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center; 
+    width: 100%;   
+}
+.group-A,.group-B,.group-C,.group-D,.group-E,.group-F,.group-G,.group-H{
+    display: none;
+    position: absolute;
+    top: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center; 
+    width: 100%;   
+}
+.enter{
+    animation: slide-in-right 1s 0.5s ease-in-out both;
+    display: flex
+}
+
+.tab-content {
+    width: 100%; 
+    
+}
+
+#standings-list .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+#group-list .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 10px;
+    
+}
+
+
+#group-listB .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+#group-listC .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+#group-listD .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+#group-listE .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+#group-listF .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+#group-listG .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    
+}
+#group-listH .list-group-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    }
+
+
+    
+#standings-list .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+}
+#group-list .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+}
+#group-listB .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+} 
+#group-listC .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+} 
+#group-listD .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+} 
+#group-listE .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+} 
+#group-listF .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+} 
+#group-listG .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+} 
+#group-listH .list-group-item:first-of-type{
+    background-color: #343a40;
+    color: white;
+    padding-left: 20px;
+} 
+@media only screen and (max-width: 600px) {
+    #standings-list .list-group-item{}.team-info{
+        margin-top: 2300px;
+    }.autoplay{
+        width: 6cm;
+    }
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+    nav{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .containerheader{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    #group-list .list-group-item{}.group-A{
+        margin-top: 2180px;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    #group-listB .list-group-item{}.group-B{
+        margin-top: 2530px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #group-listC .list-group-item{}.group-C{
+        margin-top: 2970px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #group-listD .list-group-item{}.group-D{
+        margin-top: 3280px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #group-listE .list-group-item{}.group-E{
+        margin-top: 3630px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #group-listF .list-group-item{}.group-F{
+        margin-top: 3930px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #group-listG .list-group-item{}.group-G{
+        margin-top: 4280px;
+    }
+         
+
+}
+@media only screen and (max-width: 600px) {
+    #group-listH .list-group-item{}.group-H{
+        margin-top: 4600px;
+    }
+         
+
+}
+.row{
+    justify-content: center;
+    text-align: center;
+    background-color: #2c7873;
+    padding-top: 50px;
+    
+}
+footer{
+    background-color:  #021c1e;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
